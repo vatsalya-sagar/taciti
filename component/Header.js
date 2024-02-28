@@ -20,7 +20,7 @@ export default function Header() {
         </div>
         <div className="LinkBox">
           <Link href="/about-us/">About Us</Link>
-          <Link href="/technology-services/">Our Services</Link>
+          <Link href="/our-services/">Our Services</Link>
           <Link href="/manufacturing-industries/">Industries</Link>
           <Link href="/case-studies/">Case Studies</Link>
           <Link href="/contact-us/">Contact Us</Link>
@@ -51,7 +51,7 @@ export default function Header() {
               />
             </div>
             <Link href="/about-us/">About Us</Link>
-            <Link href="/technology-services/">Our Services</Link>
+            <Link href="/our-services/">Our Services</Link>
             <Link href="/manufacturing-industries/">Industries</Link>
             <Link href="/case-studies/">Case Studies</Link>
             <Link href="/contact-us/">Contact Us</Link>

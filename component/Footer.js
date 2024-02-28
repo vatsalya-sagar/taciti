@@ -90,64 +90,39 @@ export default function Footer() {
               </div>
               <div className="col-md-3">
                 <div className="servicesBox">
-                  <h1 className="serTxt">Services</h1>
+                  <h1 className="serTxt">Industries</h1>
                   <p>
-                    <Link href="/business-consulting/" className="custom-link">
-                      Strategy & Advisory
+                    <Link
+                      href="/manufacturing-industries/"
+                      className="custom-link"
+                    >
+                      Manufacturing Industries{" "}
                     </Link>
                   </p>
                   <p>
-                    <Link href="/process-advisory/">
-                      ERP Lead Transformation
-                    </Link>
-                  </p>
-                  <p>
-                    {" "}
-                    <Link href="/business-transformation/">
-                      Transformation Management & Goverance
-                    </Link>
-                  </p>
-                  <p>
-                    <Link href="/technology-services/">
-                      Technology Services
-                    </Link>
+                    <Link href="/life-sciences/">Life Sciences</Link>
                   </p>
                   <p>
                     {" "}
-                    <Link href="/talent-management-transformation/">
-                      Human Capital Management
+                    <Link href="/consumer-packaged-goods/">
+                      Consumer Packaged Goods{" "}
                     </Link>
+                  </p>
+                  <p>
+                    <Link href="/hi-tech/">Hi-Tech </Link>
+                  </p>
+                  <p>
+                    {" "}
+                    <Link href="/utility/">Utilities</Link>
                   </p>
                 </div>
               </div>
               <div className="col-md-3">
                 <div className="servicesBox">
-                  <h1 className="serTxt">Services</h1>
+                  <h1 className="serTxt">Qulck Links</h1>
                   <p>
-                    <Link href="/business-consulting/" className="custom-link">
-                      Strategy & Advisory
-                    </Link>
-                  </p>
-                  <p>
-                    <Link href="/process-advisory/">
-                      ERP Lead Transformation
-                    </Link>
-                  </p>
-                  <p>
-                    {" "}
-                    <Link href="/business-transformation/">
-                      Transformation Management & Goverance
-                    </Link>
-                  </p>
-                  <p>
-                    <Link href="/technology-services/">
-                      Technology Services
-                    </Link>
-                  </p>
-                  <p>
-                    {" "}
-                    <Link href="/talent-management-transformation/">
-                      Human Capital Management
+                    <Link href="/contact-us/" className="custom-link">
+                      Contact Us
                     </Link>
                   </p>
                 </div>
