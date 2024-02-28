@@ -7,6 +7,7 @@ export default function Home() {
     <>
       <Head>
         <title key="pagetitle">Taciti.com</title>
+        <link rel="icons" href="/public/favicon.png" sizes="32x32" />
         <meta name="viewport" content="width=device-width" />
       </Head>
       <div id="Home">
@@ -154,7 +155,7 @@ export default function Home() {
                             majot.
                           </p>
                           <a
-                            href="/case-study-category/strategy-advisory/"
+                            href="casestudy/casestudy-strategyadvisory/"
                             style={{ textDecoration: "none" }}
                           >
                             <h2 className="caseStudy">
@@ -197,7 +198,7 @@ export default function Home() {
                             based manufacturer.
                           </p>
                           <a
-                            href="/case-study-category/erp-transformation/"
+                            href="/casestudy/casestudy-erp-transformation/"
                             style={{ textDecoration: "none" }}
                           >
                             <h2 className="caseStudy">
@@ -241,7 +242,7 @@ export default function Home() {
                             leaser.
                           </p>
                           <a
-                            href="/case-study-category/technology-services/"
+                            href="/casestudy/casestudy-technology-services/"
                             style={{ textDecoration: "none" }}
                           >
                             <h2 className="caseStudy">

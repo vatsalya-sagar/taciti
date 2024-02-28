@@ -42,9 +42,9 @@ export default function Footer() {
           </div>
         </div>
       </div> */}
-      <div id="Contact">
+      <div id="footer">
         <div className="footerBg">
-          <div className="innerCard">
+          <div className="innerCard   col-12 ">
             <div className="row">
               <div className="col-md-3">
                 <div className="box">
@@ -117,7 +117,7 @@ export default function Footer() {
                   </p>
                 </div>
               </div>
-              <div className="col-md-3">
+              <div className="col-md-3 ">
                 <div className="servicesBox">
                   <h1 className="serTxt">Qulck Links</h1>
                   <p>
