@@ -114,108 +114,87 @@ body {
 }
 
 /* Footer styles */
+.footer {
+  width: 100%;
+}
+
 .footerBg {
+  background: url("../public/images/footerbg.svg") no-repeat scroll;
   background-size: cover;
-  height: 60%;
-  background: url("../public/images/footerbg.svg");
-  background-position: top;
+  padding-top: 280px;
+  padding-bottom: 120px;
 }
-.footerBg .innerCard {
-  height: 100%;
+.box,
+.servicesBox {
+  flex: 1;
+  text-align: center;
+  font-size: 22px;
+  font-weight: 800;
+  color: #ffffff;
+  padding: 0 90px; /* Add left and right padding */
+  box-sizing: border-box; /* Include padding in the width calculation */
+}
+.servicesBox p {
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+
+.servicesBox p:last-child {
+  overflow: visible;
+  white-space: initial;
+  text-overflow: initial;
+}
+
+.innerCard {
   display: flex;
+
+  align-items: center;
   justify-content: center;
-  align-items: center; /* margin: 230px 100px; */
-  margin: 0 40px 0 40px;
-  padding: 40px 0 40px 0;
 }
-.footerBg .servicesBox {
-  margin-top: 200px; /* width: 300px; */
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
 }
-.footerBg .box {
-  margin-top: 200px; /* width: 300px; */
-}
-.footerBg .box h1 {
-  color: #fff;
-  font-size: 20px;
-}
-.footerBg .box h2 {
-  color: #fff;
-  font-size: 20px;
-  margin-top: 20px;
-}
-.footerBg .servicesBox .serTxt {
-  color: #fff;
+
+.addressBox {
   font-size: 22px;
-  margin-bottom: 22px;
+  font-weight: 800;
+
+  /* Example background color */
 }
-.footerBg .servicesBox p {
-  color: #fff;
-  font-size: 22px;
-  margin-bottom: 22px;
+
+.servicesBox {
+  flex: 1;
+
+  text-align: center;
 }
-.footerBg .servicesBox p,
-.footerBg .servicesBox a {
-  color: #fff;
+
+.serTxt {
   font-size: 22px;
-  margin-bottom: 22px;
-  text-decoration: none;
+  font-weight: 800;
 }
-.custom-link {
+
+.customLink {
   color: #fff;
-  font-size: 22px;
-  margin-bottom: 22px;
+  font-size: 18px;
+  font-weight: 300;
+
+  text-decoration-line: none;
+}
+.ch2 {
+  color: #fff;
+  font-size: 18px;
+  text-decoration-line: none;
 }
 @media (max-width: 991px) {
-  .footerBg .servicesBox p {
-    margin-bottom: 10px;
+  .servicesBox {
+    margin-bottom: 20px;
   }
 }
-@media (max-width: 768px) {
-  .footerBg {
-    background: url("../public/images/footerbg.svg") no-repeat scroll;
-    height: 100%;
-    background-size: cover;
-    background-position: top;
-  }
-  .footerBg .innerCard {
-    height: 100%;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    margin: 0 20px 0 20px;
-  }
-  .footerBg .servicesBox {
-    margin-top: 10px; /* width: 300px; */
-    margin-bottom: 15px;
-  }
-  .footerBg .box {
-    margin-top: 75px; /* width: 300px; */
-  }
 
-  .footerBg .box h1 {
-    color: #fff;
-    font-size: 16px;
-    font-weight: 300;
-  }
-  .footerBg .box h2 {
-    color: #fff;
-    font-size: 16px;
-    font-weight: 300;
-    margin-top: 0;
-  }
-  .footerBg .servicesBox .serTxt {
-    font-size: 18px;
-    margin-bottom: 10px;
-    margin-top: 20px;
-    font-weight: bold;
-  }
-  .footerBg .servicesBox p {
-    color: #fff;
-    font-size: 18px;
-    margin-bottom: 0;
-    font-weight: 300;
-  }
-}
 /* Body Styles*/
 .landingBox {
   background: url("../public/images/backgroundLayer.svg") no-repeat scroll;
