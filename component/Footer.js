@@ -14,20 +14,27 @@ export default function Footer() {
                   6010 W Spring Creek Pkwy, <br />
                   Plano, TX 75024, USA <br />
                 </h1>
+                <a className="customLink" href="info@taciti.com">
                 <h2 className="ch2">info@taciti.com</h2>
+                </a>
               </div>
-              <div className="servicesBox">
+              <div className="servicesBox mt-2  col-md-6">
+              
                 <h1 className="serTxt">Services</h1>
+                <div className="">
                 <p>
                   <Link href="/business-consulting/" className="customLink">
                     Strategy & Advisory
                   </Link>
                 </p>
+                </div>
+                <div className=" gapstyle">
                 <p>
                   <Link href="/process-advisory/" className="customLink ">
                     ERP Lead Transformation
                   </Link>
                 </p>
+                </div>
                 <p>
                   {" "}
                   <Link href="/business-transformation/" className="customLink">
@@ -49,7 +56,7 @@ export default function Footer() {
                   </Link>
                 </p>
               </div>
-              <div className="servicesBox">
+              <div className="servicesBox mt-2   col-md-6">
                 <h1 className="serTxt">Industries</h1>
                 <p>
                   <Link
@@ -82,7 +89,7 @@ export default function Footer() {
                   </Link>
                 </p>
               </div>
-              <div className="servicesBox">
+              <div className="servicesBox mt-2  col-md-6">
                 <h1 className="serTxt">Quick Links</h1>
                 <p>
                   <Link href="/contact-us/" className="customLink">

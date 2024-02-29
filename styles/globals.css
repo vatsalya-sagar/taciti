@@ -173,8 +173,8 @@ body {
 }
 
 .serTxt {
-  font-size: 22px;
-  font-weight: 800;
+  font-size: 18px;
+  font-weight: 500;
 }
 
 .customLink {
@@ -188,6 +188,7 @@ body {
   color: #fff;
   font-size: 18px;
   text-decoration-line: none;
+  font-weight: 300;
 }
 @media (max-width: 991px) {
   .servicesBox {
@@ -1098,7 +1099,7 @@ textarea.input-blue-bottom-border {
     width: 100vw;
     background-size: contain;
     background-position: top;
-    background-color: #137cc8;
+   
   }
   .contacttext {
     color: #fff;

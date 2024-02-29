@@ -155,7 +155,7 @@ export default function Home() {
                             majot.
                           </p>
                           <a
-                            href="casestudy/casestudy-strategyadvisory/"
+                            href="/casestudy/case-study-category-strategy-advisory/"
                             style={{ textDecoration: "none" }}
                           >
                             <h2 className="caseStudy">
@@ -198,7 +198,7 @@ export default function Home() {
                             based manufacturer.
                           </p>
                           <a
-                            href="/casestudy/casestudy-erp-transformation/"
+                            href="/casestudy/case-study-category-erp-transformation/"
                             style={{ textDecoration: "none" }}
                           >
                             <h2 className="caseStudy">
@@ -242,7 +242,7 @@ export default function Home() {
                             leaser.
                           </p>
                           <a
-                            href="/casestudy/casestudy-technology-services/"
+                            href="/casestudy/case-study-category-technology-services/"
                             style={{ textDecoration: "none" }}
                           >
                             <h2 className="caseStudy">
